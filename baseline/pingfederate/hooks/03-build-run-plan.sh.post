@@ -9,7 +9,7 @@
 #   If Found,     then we are RESTARTing
 #
 
-PF_ENGINE_URL="https://demo-pingfederate-engine.pingdemo.example:443"
+PF_ENGINE_BASE_URL="demo-pingfederate-engine.pingdemo.example:443"
 
 # if test -z "${PF_ENGINE_BASE_URL}"; then
 #   PF_ENGINE_BASE_URL="${PF_ENGINE_PUBLIC_HOSTNAME}:${PF_ENGINE_PUBLIC_PORT_HTTPS}"

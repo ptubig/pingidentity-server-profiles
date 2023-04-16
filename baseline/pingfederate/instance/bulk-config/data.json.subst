@@ -1242,7 +1242,7 @@
         {
             "operationType": "SAVE",
             "items": [{
-                "baseUrl": "https://${PF_ENGINE_BASE_URL}",
+                "baseUrl": "https://demo-pingfederate-engine.pingdemo.example:443",
                 "contactInfo": {},
                 "virtualEntityIds": [],
                 "credentials": {"certs": [{
@@ -1311,7 +1311,7 @@
             "operationType": "SAVE",
             "items": [
                 {
-                    "baseUrl": "https://${PF_ENGINE_BASE_URL}",
+                    "baseUrl": "https://demo-pingfederate-engine.pingdemo.example:443",
                     "contactInfo": {},
                     "wsTrust": {
                         "generateKey": false,
@@ -1485,7 +1485,7 @@
                 "rollRefreshTokenValues": false,
                 "allowedOrigins": [
                     "https://localhost",
-                    "https://${PF_ENGINE_BASE_URL}",
+                    "https://demo-pingfederate-engine.pingdemo.example:443",
                     "https://${PD_DELEGATOR_URL}"
                 ],
                 "allowUnidentifiedClientExtensionGrants": false,
